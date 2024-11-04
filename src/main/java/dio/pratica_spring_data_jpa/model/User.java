@@ -3,7 +3,7 @@ package dio.pratica_spring_data_jpa.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "usuario")
+@Table(name = "table_user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
